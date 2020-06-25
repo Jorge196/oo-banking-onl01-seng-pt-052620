@@ -2,7 +2,7 @@ class Transfer
   attr_accessor  :receiver, :status, :sender, :amount
 
   def initialize(amount, sender, receiver)
-    @transfer = transfer
+    @amount = amount
     @sender = sender
     @receiver = receiver
     @status = "pending"
